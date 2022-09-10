@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://venilima.github.io/facebook-login-page/",
+  "homepage": "/facebook-login-page",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
