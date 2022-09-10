@@ -1,5 +1,5 @@
 import "./App.css";
-import { Footer } from "./components/footer/Footer";
+import facebook from "./assets/facebook.svg";
 
 function App() {
   return (
@@ -24,11 +24,7 @@ function App() {
           </div>
         </div>
         <div className="contentText">
-          <img
-            className="logo"
-            src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg"
-            alt="Facebook"
-          />
+          <img className="logo" src={facebook} alt="Facebook" />
 
           <p>
             O Facebook ajuda você a se conectar e compartilhar com as pessoas
