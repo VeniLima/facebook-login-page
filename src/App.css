@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.34;
+  font-size: 12px;
+  background: #edf0f5;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+
+  margin-left: 500px;
+  margin-top: -50px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 6px;
+  width: 396px;
+  height: 356px;
+
+  font-size: 12px;
+
+  background: #fff;
+
+  gap: 10px;
+}
+
+.contentForm {
+  display: flex;
+
+  width: 400px;
+  font-size: 14px;
+  flex-wrap: wrap;
+
+  text-align: center;
+}
+
+.logo {
+  margin-left: -60px;
+  width: 360px;
+  height: 106px;
+}
+
+.contentText p {
+  margin-top: -10px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+}
+
+.contentText {
+  font-size: 26px;
+  display: flex;
+  flex-direction: column;
+  width: 596px;
+  margin-right: 48px;
+  padding: 40px;
+}
+
+a {
+  font-size: 14px;
+}
+
+hr {
+  color: lightgray;
+  opacity: 50%;
+  width: 90%;
+}
+
+input {
+  padding: 14px 16px;
+  border-radius: 6px;
+  border: 1px solid gray;
+  font-size: 17px;
+  width: 330px;
+  opacity: 50%;
+}
+
+.enterButton {
+  width: 364px;
+  height: 48px;
+  color: #fff;
+  background: #1877f2;
+  border-radius: 6px;
+  padding: 0 16px;
+
+  font-size: 20px;
+  line-height: 48px;
+  font-weight: bold;
+}
+
+.newAccountButton {
+  width: 173px;
+  height: 48px;
+
+  color: #fff;
+  background: #42b72a;
+
+  font-weight: bold;
+  line-height: 48px;
+  font-size: 17px;
+  border-radius: 6px;
+  padding: 0 16px;
+}
