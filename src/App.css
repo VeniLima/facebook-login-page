@@ -164,14 +164,19 @@ input {
 }
 
 @media (max-width: 1600px) {
-  /*  .wrap {
-    margin-left: 0.025rem;
-  } */
-
   .contentText {
     margin-left: -2rem;
     width: 30.25rem;
     margin-right: 3rem;
+    padding: 2.5rem;
+  }
+}
+
+@media (max-width: 1440px) {
+  .contentText {
+    margin-left: -4rem;
+    width: 25.25rem;
+    margin-right: 1rem;
     padding: 2.5rem;
   }
 }
